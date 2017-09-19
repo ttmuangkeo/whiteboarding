@@ -3,10 +3,6 @@
 
 
 
-//this function will check a string to see if it is a palidrome.
-//this function will one parameter (str)
-//str is whatever the user inputs 
-//ex. palidrome(racecar), palidrome(hannah), palidrome(phone)
 
 /*direction:
 
@@ -18,13 +14,21 @@ matches the orgininal string.
 4. Now you have a string that has been reverse. If this string equals the original string, return true
 if it's not true. Return false.
 */
+
+
+//this function will check a string to see if it is a palidrome.
+//this function will one parameter (str)
+//str is whatever the user inputs 
 function palidrome(str) {
 //step 1.
 var splitString = str.split('');
+console.log('splitString: ', splitString);
 //step 2.
 var reverseString = splitString.reverse();
+console.log('reverseString: ', reverseString);
 //step 3.
 var joinString = reverseString.join();
+console.log('joinString: ', joinString);
 //step 4.
 if(joinString === str) {
 	return true;
@@ -33,3 +37,4 @@ if(joinString === str) {
 	}
 }
 palidrome('abc');
+//ex. palidrome(racecar), palidrome(hannah), palidrome(phone)
