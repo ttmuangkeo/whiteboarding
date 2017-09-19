@@ -27,13 +27,17 @@ Step 4. Sum should now equal, well the sum of the total array. Simply return sum
 
 
 function simpleArraySum(n, ar) {
+	//Step 1
     var sum = 0
+    //Step 2
     if(n != ar.length) {
         return false
+    //Step 3
     } else {
         for(var i = 0; i<ar.length; i++) {
             sum = sum += ar[i]
         }
+    //Step 4
         return sum
     }
 }
