@@ -29,16 +29,19 @@ Step 4. Return your counter.
 
 
 function solve(a0, a1, a2, b0, b1, b2){
+    //Step 1
     var alice = [a0, a1, a2];
     var bob = [b0, b1, b2];
     var aliceBob = [0, 0];
-    
+    //Step 2
     for(var i = 0; i<alice.length; i++) {
         if(alice[i] > bob[i]) {
             aliceBob[0] += 1;
+    //Step 3
         } else if(bob[i] > alice[i]) {
             aliceBob[1] += 1;
         }
     }
+    //Step 4
     return aliceBob
 }
