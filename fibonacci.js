@@ -24,12 +24,16 @@ Step 3. Declare my variable to push to my data array. This is the recursion. Thi
 		 ^		^
 		 |		|
 		 n-2 +	n-1
+
 			--RESULTS = 2--
-		 [1,	1,		2]
+
+		 [1,	1,	2]
 				 ^		^
 				 |		|
 				 n-2 +	n-1
+
 				 	--RESULTS = 3--
+
 				[1,		1,		2,		3]
 								 ^		^
 								 |		|
