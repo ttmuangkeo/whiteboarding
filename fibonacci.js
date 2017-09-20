@@ -23,13 +23,13 @@ Step 3. Declare my variable to push to my data array. This is the recursion. Thi
 		[1,		1,]
 		 ^		^
 		 |		|
-		 n-2 +	n-1
+		 n-2 +		n-1
 
 			--RESULTS = 2--
 		[1,		1,		2]
 				 ^		^
 				 |		|
-				 n-2 +	n-1
+				 n-2 +		n-1
 
 
 				 	--RESULTS = 3--
@@ -37,7 +37,7 @@ Step 3. Declare my variable to push to my data array. This is the recursion. Thi
 				[1,		1,		2,		3]
 								 ^		^
 								 |		|
-								 n-2 +	n-1
+								 n-2 +		n-1
 								 --RESULTS = 5--
 Step 4. In order to keep the sequence going. Push your recursion to your data array.
 */
