@@ -11,7 +11,7 @@ This function will take one parameter, str.
 The logic behind this approach is to set a counter to = 0. I want to add to the counter
 everytime my loop reads 'o'. To check to see if a string has the same amout of 'x', I want to
 subtract from the counter everytime my loop reads 'x'. If the string has the same amount of 'x' and 'o'
-then the count SHOULD be 0.
+then the count SHOULD be 0. 
 */
 
 /*
