@@ -26,7 +26,7 @@ Step 4: We now return the sum counter as a boolean. Is it 0? true or false.
 
 */
 
-
+test
 function XO(str) {
 	//Step 1
   var sum = 0;
